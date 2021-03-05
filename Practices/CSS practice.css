@@ -1,0 +1,42 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+    background-color: chocolate;
+    background:chocolate;
+    color: darkkhaki;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    background-image: url("image/sublime.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+h2{
+   border: 5px solid blue;
+   background: lightblue;
+   border-left: 5px solid red;
+   border-bottom: 5px solid rgb(217, 0, 255);
+   border-radius: 15px;
+}
+
+ol {
+    border: 2px solid rebeccapurple;
+    border-style: dashed solid dotted;
+}
