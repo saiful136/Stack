@@ -8,8 +8,7 @@ h1 {
     letter-spacing: 2px;
     
     background-color: chocolate;
-    background:chocolate;
-    color: darkkhaki;
+    color: whitesmoke;
     
     padding-top: 10px;
     padding-bottom: 10px;
@@ -19,13 +18,16 @@ p {
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
-    line-height: 1.5;
+    line-height: 2.1;
     font-family: Arial, Helvetica, sans-serif;
-    color: #666;
-    background-image: url("image/sublime.jpg");
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    /* background-image: url("image/sublime.jpg"); */
+    background-image: url("https://t3.ftcdn.net/jpg/03/07/70/26/360_F_307702606_BUoL5NjkGYYSWFPuVcartqoWgBht4ey6.jpg");
     background-position: right top;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: scroll;
+    /* border-radius: 20px; */
 }
 
 h2{
@@ -34,6 +36,7 @@ h2{
    border-left: 5px solid red;
    border-bottom: 5px solid rgb(217, 0, 255);
    border-radius: 15px;
+   text-align: center;
 }
 
 ol {
