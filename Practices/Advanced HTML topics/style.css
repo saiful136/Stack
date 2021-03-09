@@ -1,0 +1,73 @@
+/* To declare in CSS
+id = #
+class = .dot; */
+
+/* We have to use the following * code block all the time in the css file */
+
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw; /*vw = viewport width*/
+    min-width: 100vh; /*vh = viewport height*/
+    background-color: #ddd;
+}
+
+.container {
+    margin: auto;
+    width: 65%;
+    background-color: darkgoldenrod;
+}
+
+.navbar{
+    height: 60px;
+    background-color: darkgoldenrod;
+}
+
+.navbar h3 {
+    font-size: 28px;
+    color: white;
+    margin-left: 36px;
+    line-height: 60px;
+}
+
+.main{
+    padding: 20px;
+}
+
+.main h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #221212;
+}
+
+.main p {
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    color: #666666;
+    margin-top: 20px;
+}
+
+.btn-group {
+    margin-top: 48px;
+    text-align: center;
+}
+
+.btn {
+    text-transform: initial;
+    padding: 8px 16px; /*First 8px controls the top & bottom sector, and second 16px controls left & right sector*/
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    background-color: aquamarine;
+    color: darkred;
+}
+
+.p-inner {
+    text-decoration: underline;
+    user-select: all;
+    font-weight: bold;
+}
