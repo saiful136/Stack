@@ -1,0 +1,13 @@
+body{
+    background: darkseagreen;
+}
+
+div{
+    background:rgba(215, 186, 238, 0.65);
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    border: 5px solid yellow;
+    outline: 7px dashed navajowhite;
+}
+
