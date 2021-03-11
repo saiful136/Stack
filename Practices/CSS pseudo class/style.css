@@ -1,0 +1,27 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: #000;
+    position: relative;
+    left: 100px;
+}
+
+.box::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute;
+    left: -100px;
+}
+
+.box::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute;
+    left: 100px;
+}
