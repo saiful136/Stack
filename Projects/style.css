@@ -41,3 +41,12 @@ html, body {
     float: right;
 }
 
+.menu-items li {
+    list-style: none;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
