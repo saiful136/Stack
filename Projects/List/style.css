@@ -16,7 +16,6 @@ h2 {
 }
 
 h3 {
-    
     color: purple;
     padding-top: 29px;
     padding-bottom: 15px;
@@ -36,7 +35,11 @@ h3 {
     margin: 20px 0px;
 }
     
-ul, li {
+ul, ol {
     list-style-position: inside;
+}
+
+li {
+    margin-left: 20px;
 }
 
