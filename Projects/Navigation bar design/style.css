@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav {
+    background: salmon;
+    width: 100%;
+    height: 60px;
+}
+
+h2 {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+
+ul {
+    float: right;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    line-height: 60px;
+    height: 60px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.search {
+    margin: 16px 0 0 70px;
+    padding: 7px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
