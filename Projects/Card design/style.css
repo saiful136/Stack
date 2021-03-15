@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    /* padding: auto; */
+    position: relative;
+}
+
+.card {
+    height: 550px;
+    width: 450px;
+    margin: 100px 0 50px 40%;
+    border-radius: 69px;
+    background: #f4e2e2;
+    box-shadow:  -6px -6px 12px #897f7f,
+             6px 6px 12px #ffffff;
+    position: relative;
+}
+
+.profile-picture {
+    height: 250px;
+    margin: 22%;
+    position:static;
+    border: 1px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-picture img {
+    height: 250px;
+    padding: auto;
+}
+
+.title {
+    text-align: center;
+    margin: -80px;
+}
+
+.title h3 {
+    padding-top: 10px;
+}
+
+.bio {
+    margin: 90px 80px 0 80px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+button {
+    padding: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
