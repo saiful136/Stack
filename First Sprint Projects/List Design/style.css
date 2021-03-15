@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: orchid;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(131, 0, 253);
+    padding-bottom: 20px;
+    text-decoration: underline double;
+}
+
+h3 {
+    color: #D24A71;
+    padding-top: 29px;
+    padding-bottom: 15px;
+}
+
+.list{
+    width: 450px;
+    background: #f6c9e1;
+    margin: 20px 0px;
+    padding: 50px 40px;
+    border: 4px solid royalblue;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+    
+ul, ol {
+    list-style-position: inside;
+}
+
+li {
+    margin-left: 20px;
+}
+
