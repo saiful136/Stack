@@ -6,23 +6,32 @@
 
 h1 {
     text-align: center;
-    margin: 20px;
+    margin: 10px 0 5px 0;
     padding: 5px;
     padding-bottom: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: ;
     text-shadow: 1px 1px 3px fuchsia;
     font-size: 35px;
 }
 
+h1:hover {
+    text-decoration: underline;
+
+}
+
 div {
     margin: auto;
-    height: 440px;
-    width: 500px;
-    background: #ccc;
+    width: 520px;
     border-radius: 5px;
-    padding: 20px;
+    padding: 1px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    background-color: #ccc;
+    padding: 25px;
+    box-shadow: 1px 1px 10px 10px rgb(151, 151, 151);
+    border-radius: 29px;
 }
 
 input, select {
@@ -30,7 +39,7 @@ input, select {
     padding: 12px;
     border: 1px solid black;
     width: 95%;
-    display: inline-block;
+    /* display: inline-block; */
     border-radius: 10px;
     outline: none;
 }
@@ -44,5 +53,5 @@ input, select {
 }
 
 .submit:hover {
-    background-color: rgb(0, 229, 250);
+    background-color: rgb(0, 150, 250);
 }
