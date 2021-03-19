@@ -5,7 +5,13 @@
     background-color: #eeefae;
 }
 
-
+.wrapper {
+    width: 100%;
+    min-height: 1000px;
+    background: forestgreen;
+    position: relative;
+    z-index: 0;
+}
 
 .box {
     height: 30vw;
