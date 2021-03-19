@@ -2,11 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: royalblue;
 }
 
 .box{
     height: 100px;
     width: 100px;
     background-color: aqua;
+    position:relative;
     left: 100px;
+}
+
+.box::before {
+    content: " ";
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color:rebeccapurple;
+    position:absolute;
+    left: -100px;
+}
+
+.box::after {
+    content: " ";
+    height: 100px;
+    width: 100px;
+    background-color: rosybrown;
+    left: 100px;
+    position: absolute;
 }
