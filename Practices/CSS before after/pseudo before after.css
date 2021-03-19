@@ -6,21 +6,16 @@
 }
 
 .wrapper {
-    width: 100%;
-    min-height: 1000px;
+    width: 100vw;
+    height: 38vw;
     background: forestgreen;
-    position: relative;
-    z-index: 0;
 }
 
 .box {
-    height: 30vw;
     width: 90vw;
+    height: 30vw;
     margin: 100px;
     background-color:royalblue;
     position: absolute;
-    justify-items: center;
-    
 }
-
 
