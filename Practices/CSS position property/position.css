@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: plum;
+    background-color: #123;
 }
 
 .box {
     height: 50vw;
-    width: 60vw;
-    background-color: rgb(69, 192, 69);
+    width: 70vw;
+    background-color: #006747;
     position: relative;
     left: 0;
     top: 0;
@@ -21,7 +21,13 @@
     height: 30vw;
     width: 30vw;
     border-radius: 50%;
-    background-color: red;
-    position: relative;
-    transform: translate(50%, 50%);
+    background-color: #DA291C;
+    position: absolute;
+    transform: translate(50%, 29%);
+}
+
+.stick {
+    height: 100vw;
+    width: 10px;
+    background-color: rgb(253, 0, 135);
 }
