@@ -6,22 +6,22 @@
 }
 
 .box {
-    height: 50%;
-    width: 50%;
+    height: 50vw;
+    width: 60vw;
     background-color: rgb(69, 192, 69);
-    position: absolute;
-    right: 0;
+    position: relative;
     left: 0;
     top: 0;
+    right: 0;
     bottom: 0;
     margin: auto;
 }
 
 .center {
-    height: 50%;
-    width: 50%;
+    height: 30vw;
+    width: 30vw;
     border-radius: 50%;
+    background-color: red;
     position: relative;
-
-
+    transform: translate(50%, 50%);
 }
