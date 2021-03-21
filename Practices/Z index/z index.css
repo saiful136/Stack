@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+}
+
+/*The elements with higher z-index value will be visible on the foreground*/
+
+.top {
+    background-color: darkolivegreen;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+}
+
+.center {
+    background-color: orchid;
+    position: absolute;
+    z-index: 2;
+    left: 70px;
+}
+
+.bottom {
+    background-color: rebeccapurple;
+    position: absolute;
+    z-index: 2;
+    left: 150px;
+    top: 70px;
+}
