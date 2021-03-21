@@ -1,0 +1,22 @@
+
+h1 {
+    text-align: center; 
+    font-size: 40px;
+    text-shadow: 2px 2px 1px orchid;
+
+    /* text-shadow: x-axis value, y-axis value, blur size, color;; */
+
+
+    /* color: white;
+    text-shadow: 5px 2px 1px red; */
+    margin-bottom: 50px;
+    border: 8px dashed cornflowerblue;
+}
+
+.box {
+    height: 400px;
+    width: 400px;
+    background: crimson;
+    margin: auto;
+    box-shadow: 15px 17px 4px gray;
+}
