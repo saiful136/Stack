@@ -1,0 +1,17 @@
+.linear {
+    height: 200px;
+    width: 98%;
+    /* background: linear-gradient(to right, orchid,red, yellow, fuchsia); */
+
+    background: linear-gradient(50deg, orchid,darkred, salmon, fuchsia);
+    margin-bottom: 20px;
+}
+
+.radial {
+    height: 400px;
+    width: 98%;
+    
+    background: radial-gradient(orchid 10%,darkred, salmon, fuchsia);
+
+    /* background: radial-gradient(orchid,darkred, salmon, fuchsia); */
+}
