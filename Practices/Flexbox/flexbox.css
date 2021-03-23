@@ -15,32 +15,35 @@
     width: 80%;
     margin: 0 auto;
     background: #234;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.wrap::after {
-    content: "";
-    display: block;
-    clear: both;
-}
 
 .box {
     height: 150px;
     width: 150px;
-    float: left;
+    
 }
 
 .one {
     background-color: coral;
+    flex-grow: 2;
 }
 
 .two {
     background-color: slateblue;
+    flex-grow: 6;
+
 }
 
 .three {
     background-color: cornflowerblue;
+    flex-grow: 2;
 }
 
 .four {
     background-color: darkcyan;
+    flex-grow: 2;
+
 }
