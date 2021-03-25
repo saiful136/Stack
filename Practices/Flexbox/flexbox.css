@@ -28,22 +28,22 @@
 
 .one {
     background-color: coral;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 .two {
     background-color: slateblue;
-    flex-grow: 6;
+    flex-grow: 3;
 
 }
 
 .three {
     background-color: cornflowerblue;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 .four {
     background-color: darkcyan;
-    flex-grow: 2;
+    flex-grow: 1;
 
 }
