@@ -2,22 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #d9e9e6;
+}
+
+header {
+    height: 80px;
+    width: 290px;
+    border: 5px solid darkred;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 11px;
 }
 
 h1 {
     text-align: center;
     text-decoration: underline dashed rebeccapurple;
-    color: rebeccapurple;
+    color: royalblue;
     text-shadow: 1px 1px fuchsia;
+    margin: 0 auto;
 }
 
 .grid-container {
     display: grid;
-    margin: 1px;
-    padding: 1px;
-    grid-auto-columns: auto;
+    margin-top: 50px;
+    
 }
 
 .grid-item {
     background-color: gray;
+    padding: 15px;
+    margin: 10px;
 }
