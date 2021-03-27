@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline dashed rebeccapurple;
+    color: rebeccapurple;
+    text-shadow: 1px 1px fuchsia;
+}
+
+.grid-container {
+    display: grid;
+    margin: 1px;
+    padding: 1px;
+    grid-auto-columns: auto;
+}
+
+.grid-item {
+    background-color: gray;
+}
