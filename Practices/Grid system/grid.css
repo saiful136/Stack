@@ -24,13 +24,37 @@ h1 {
 }
 
 .grid-container {
+    height: 100%;
     display: grid;
     margin-top: 50px;
-    
+    /* grid-template-columns: 200px 200px; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;   FR= fraction */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    justify-content: center;
+    /* row-gap: 10px;
+    column-gap: 50px; */
+    gap: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .grid-item {
     background-color: gray;
     padding: 15px;
-    margin: 10px;
+}
+
+.a {
+    background-color: orchid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.d {
+    grid-column: 1 / 4;     /* starting point / ending point */
+}
+
+.f {
+    grid-row: 3/5;
 }
