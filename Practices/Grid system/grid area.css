@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas: "h h h h h h h h h h h h"
+                         ". m m m c c c c c c c c"
+                         "f f f f f f f f f f f f";
+/* Use dot (.) to put a blank space in the grid */
+}
+
+.header {
+    grid-area: h;
+}
+
+.menu {
+    grid-area: m;
+}
+
+.content {
+    grid-area: c;
+}
+
+.footer {
+    grid-area: f;
+}
