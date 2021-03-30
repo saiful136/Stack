@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 4px;
+    grid-auto-flow: dense;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* It resizes the images based on the container.*/
+}
+
+.vertical {
+    grid-row: auto / span 2;
+}
+
+.horizontal {
+    grid-column: auto/span 2;
+}
+
+.big {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+}
