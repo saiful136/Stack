@@ -7,7 +7,15 @@
 .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     /* "Auto-fit" leaves no blank spaces on the page, but "Auto-fill" leaves blank spaces after the elements*/
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-auto-rows: 1fr;
+    /* grid-auto-rows: 200px; [It means the automatically created rows will become 200px] */
+
+
+}
+
+.container > div {
+    margin: 1px;
 }
