@@ -25,9 +25,14 @@ img {
     grid-column: auto/span 2;
 }
 
-.big {
+/* .big {
     grid-column: auto / span 2;
     grid-row: auto / span 2;
-}
+} */
 
-/* Removing the first auto will also work properly. Auto is the default value for the first parameter. */
+/* Removing the first "auto" will also work properly. Auto is the default value for the first parameter. */
+
+.big {
+    grid-column:  span 2;
+    grid-row:  span 2;
+}
