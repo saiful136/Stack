@@ -72,3 +72,13 @@
 
 /* Practice 4 (Line-based placement with grid-area). Link - https://gridbyexample.com/examples/images/example4.png */
 
+/* grid-are: row-start/column-start/row-end/column-end */
+
+
+.d {
+    grid-area: 1/1/2/2;  
+}
+
+
+DAF
+EBC
