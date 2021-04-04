@@ -5,17 +5,17 @@
     background-color:papayawhip;
 }
 
-/* Practice 1 (Defining a grid). Link - https://gridbyexample.com/examples/images/example1.png */
-
 .container {
     display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-gap: 10px;
-    outline: 5px solid purple;
-    
+    justify-content: center;
 }
 
-h1 {
+
+/* Practice 1 (Defining a grid). Link - https://gridbyexample.com/examples/images/example1.png */
+
+/* .item {
     height: 100px;
     width: 100px;
     background-color:#444444;
@@ -24,6 +24,12 @@ h1 {
     align-items: center;
     padding: 20px;
     color: #fff;
+} */
+
+
+
+/* Practice 3 (Line-based placement shorthand). Link - https://gridbyexample.com/examples/images/example3.png */
+
+.item {
+    
 }
-
-
