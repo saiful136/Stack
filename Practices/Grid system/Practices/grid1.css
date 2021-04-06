@@ -72,13 +72,29 @@
 
 /* Practice 4 (Line-based placement with grid-area). Link - https://gridbyexample.com/examples/images/example4.png */
 
-/* grid-are: row-start/column-start/row-end/column-end */
+/* grid-area: row-start/column-start/row-end/column-end */
 
 
 .d {
     grid-area: 1/1/2/2;  
 }
 
+.a {
+    grid-area: 1/2/2/3;
+}
 
-DAF
-EBC
+.f {
+    grid-area: 1/3/2/4;
+}
+
+.e {
+    grid-area: 2/1/3/2;
+}
+
+.b {
+    grid-area: 2/2/3/3;
+}
+
+.c {
+    grid-area: 2/3/3/4;
+}
