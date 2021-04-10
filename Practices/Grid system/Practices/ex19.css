@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: skyblue;
+    font-size: xx-large;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    height: 50%;
+    width: 50%;
+    margin: 15px;
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-gap: 10px;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 60px;
+    width: 100px;
+    padding: 10px 50%;
+    background-color: #444;
+    border-radius: 10px;
+}
+
+.box:nth-child(even) {
+    background-color: rgb(161, 161, 161);
+}
+
+.box2 {
+    border: 2px solid red;
+    color: black;
+    grid-column: 3 / 6;
+    grid-row: 2 / 3;
+    z-index: 10;
+}
