@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-<<<<<<< HEAD
+
 }
 
 html,
@@ -68,9 +68,6 @@ nav {
 
 .nav-items li:hover {
     display: inline-block;
-    border-bottom: 5px solid #0066F9;
+    border-bottom: 3px solid #0066F9;
     border-radius: 2px;
 } 
-=======
-}
->>>>>>> 84adfdafb0109b28efb874d30c67c8664cd1ea52
